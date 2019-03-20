@@ -16,7 +16,7 @@ int main()
     mav(0,-800);
     mav(1,800);
     msleep(1150);
-    printf("I am the cookie making master. bow befor your new surpreme overlord");
+   // printf("I am the cookie making master. bow befor your new surpreme overlord");
     set_servo_position(1,1850);
     move(6400,800);//move to the tower to do the wacking
     msleep(1000);
@@ -30,7 +30,7 @@ int main()
         move(800,900);
         x = x + 1;
     }
-    printf("I AM THE MEESE");
+   // printf("I AM THE MEESE");
     move(2500,-800);
     mav(0,-800);
     mav(1,800);
